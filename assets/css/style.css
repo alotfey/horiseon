@@ -66,12 +66,15 @@ p {
 /* HERO DIV WITH BACKGROUND IMAGE */
 
 .hero {
-    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hero img {
     width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    height: 800px;
     background-size: cover;
-    background-position: center;
+    margin-bottom: 20px;
 }
 
 /* FLOATS */
@@ -87,20 +90,22 @@ p {
 }
 
 /* MAIN */
-
+.grid-main {
+    display: flex;
+    justify-content:space-around;
+}
 main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
     width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 /* BENEFITS ASIDE */
 
 .benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
+    display: flex;
+    flex-flow: column;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -149,9 +154,22 @@ footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 footer h2 {
     font-size: 20px;
+    
 }
+@media screen and (max-width: 900px) {
+    a {
+      color: aquamarine;
+    }
+  
+    h3 {
+      font-size: 200px;
+    }
+  }
