@@ -1,2 +1,31 @@
-# horiseon
-marketing agency a full-service digital marketing agency. We’ve been providing a wide range of services to clients of all industries since 2005. Our digital marketing services include consulting and management options for a variety of online marketing tactics including search engine optimization (SEO), pay-per-click (PPC) ads, Amazon store optimization, copywriting, conversion rate optimization (CRO), and more. We also offer expert web design and development services for both eCommerce and B2B companies. Don’t just partner with any digital marketing agency; work with a company you can trust.
+# **Horiseon Project**
+
+# Requirements
+***change code structure of the HTML elements*** 
+
+***optimized website for search engines***
+
+***website meets accessibility standards***
+
+# Project Notes
+
+images add html alt attrubte for SEO porpose 
+
+# Setup
+
+none
+
+# Front-end Compiling
+
+none
+
+# Files & directories
+
+Assets >> css , images
+
+# Design Notes
+
+keep same colors and images for website
+
+# Credits
+Website made with love ❤ by bootcamp 
